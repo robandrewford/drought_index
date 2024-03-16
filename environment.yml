@@ -2,11 +2,14 @@ name: drought
 channels:
   - conda-forge
   - base
+  - bioconda
   - R
 dependencies:
   - r-base=4.3.3
   - r-tidyverse=2.0.0
   - wget-1.20.3
+  - snakemake=8.7.0
+  - graphviz=9.0.0
 
   # mamba env create -f environment.yml
   # conda activate drought
